@@ -11,9 +11,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
+Make sure do you use command `npm i angular-cli-ghpages --save-dev` earilier.
+Run `npm run deploy`.
 
-Run `ng build --prod --baseHref=" https://salieri12.github.io/PrzyjaznyBotUI/"` to build the project. The build artifacts will be stored in the `docs/` directory.
-This is required to deploy the application to github.io.
+All stuff is included in angular.json and package.json.
+
 
 ## Running unit tests
 
