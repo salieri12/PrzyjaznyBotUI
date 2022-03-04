@@ -12,7 +12,8 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build --prod --baseHref=" https://salieri12.github.io/PrzyjaznyBotUI/"` to build the project. The build artifacts will be stored in the `docs/` directory.
+This is required to deploy the application to github.io.
 
 ## Running unit tests
 
